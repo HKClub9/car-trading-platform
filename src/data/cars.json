@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "brand": "Abarth",
+    "model": "500",
+    "year": 2025,
+    "price": 230000,
+    "images": [
+      "./images/id1-abarth-500.jpg",
+      "./images/id1-1-abarth-500.jpg",
+      "./images/id1-2-abarth-500.jpg",
+      "./images/id1-3-abarth-500.jpg"
+    ],
+    "category": "sedan"
+  },
+  {
+    "id": 2,
+    "brand": "BMW",
+    "model": "M4",
+    "year": 2025,
+    "price": 1100000,
+    "images": [
+      "./images/id2-BMW-M4.jpg",
+      "./images/id2-1-BMW-M4.jpg",
+      "./images/id2-2-BMW-M4.jpg",
+      "./images/id2-3-BMW-M4.jpg"
+    ],
+    "category": "suv"
+  },
+  {
+    "id": 3,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "price": 1800000,
+    "images": [
+      "/images/id3-Tesla-Model3.jpg",
+      "/images/id3-1-Tesla-Model3.jpg",
+      "/images/id3-2-Tesla-Model3.jpg",
+      "/images/id3-3-Tesla-Model3.jpg"
+    ],
+    "category": "ev"
+  },
+  {
+    "id": 4,
+    "brand": "Porsche",
+    "model": "Taycan",
+    "year": 2025,
+    "price": 2300000,
+    "images": [
+      "./images/id4-porsche-taycan.jpg",
+      "./images/id4-1-porsche-taycan.jpg",
+      "./images/id4-2-porsche-taycan.jpg",
+      "./images/id4-3-porsche-taycan.jpg"
+    ],
+    "category": "suv"
+  },
+  {
+    "id": 5,
+    "brand": "Porsche",
+    "model": "Taycan",
+    "year": 2025,
+    "price": 2300000,
+    "images": [
+      "./images/id4-porsche-taycan.jpg",
+      "./images/id4-1-porsche-taycan.jpg",
+      "./images/id4-2-porsche-taycan.jpg",
+      "./images/id4-3-porsche-taycan.jpg"
+    ],
+    "category": "suv"
+  },
+  {
+    "id": 6,
+    "brand": "Mercedes",
+    "model": "GLE",
+    "year": 2025,
+    "price": 1950000,
+    "images": [
+      "./images/id6-mercedes-GLE.jpg",
+      "./images/id6-1-mercedes-GLE.jpg",
+      "./images/id6-2-mercedes-GLE.jpg",
+      "./images/id6-3-mercedes-GLE.jpg"
+    ],
+    "category": "suv"
+  },
+  {
+    "id": 7,
+    "brand": "Mini",
+    "model": "1.5 Copper Sport II",
+    "year": 2019,
+    "price": 890000,
+    "images": [
+      "./images/id7-Mini-1.5-cooper-sport-ii.jpg",
+      "./images/id7-1-Mini-1.5-cooper-sport-ii.jpg",
+      "./images/id7-2-Mini-1.5-cooper-sport-ii.jpg",
+      "./images/id7-3-Mini-1.5-cooper-sport-ii.jpg"
+    ],
+    "category": "sedan"
+  },
+  {
+    "id": 8,
+    "brand": "Abarth",
+    "model": "500",
+    "year": 2025,
+    "price": 230000,
+    "images": [
+      "./images/id1-abarth-500.jpg",
+      "./images/id1-1-abarth-500.jpg",
+      "./images/id1-2-abarth-500.jpg",
+      "./images/id1-3-abarth-500.jpg"
+    ],
+    "category": "sedan"
+  },
+  {
+    "id": 9,
+    "brand": "Porsche",
+    "model": "Macan Electric Estate",
+    "year": 2020,
+    "price": 570000,
+    "images": [
+      "./images/id8-porsche-Macan-Electric-Estate.jpg",
+      "./images/id8-1-porsche-Macan-Electric-Estate.jpg",
+      "./images/id8-2-porsche-Macan-Electric-Estate.jpg",
+      "./images/id8-3-porsche-Macan-Electric-Estate.jpg"
+    ],
+    "category": "ev"
+  }
+]
+

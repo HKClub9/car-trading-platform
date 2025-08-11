@@ -1,0 +1,58 @@
+.sell-page {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.sell-page h2 {
+  color: #0d1b2a;
+  margin-bottom: 1rem;
+}
+
+.sell-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sell-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.sell-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sell-form button {
+  background-color: #FFD700;
+  color: #000;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sell-form button:hover {
+  background-color: #ffcc00;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+  display: block;
+}
