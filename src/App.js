@@ -10,6 +10,9 @@ import SellCar from './pages/Sell';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
 import { CartProvider } from './context/CartContext';
+import Checkout from './pages/Checkout'
+import Confirmation from './pages/Confirmation';
+
 
 
 // Scroll-to-top helper
@@ -27,7 +30,7 @@ function ScrollToTop() {
 function App() {
   return (
     <CartProvider>
-      <Router>
+      {/* <Router> */}
         <ScrollToTop />
         <Layout>
           <Routes>
@@ -37,9 +40,11 @@ function App() {
             <Route path="/sell" element={<SellCar />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/confirmation" element={<Confirmation />} />
           </Routes>
         </Layout>
-      </Router>
+      {/* </Router> */}
     </CartProvider>
   );
 }

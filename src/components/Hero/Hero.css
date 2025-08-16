@@ -1,39 +1,37 @@
-.hero {
+.hero-banner {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Parallax effect */
-  background-repeat: no-repeat;        
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 0 1rem;;
+  padding: 0 1rem;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   min-height: 80vh;
 }
 
-.hero-content {
+.hero-banner__content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 10px;
   max-width: 90%;
 }
 
-.hero-content h1 {
+.hero-banner__content h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.hero-content p {
+.hero-banner__content p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.hero-button {
+.hero-banner__button {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 1.5rem;
@@ -46,11 +44,11 @@
   transition: background-color 0.3s ease;
 }
 
-.hero-button:hover {
+.hero-banner__button:hover {
   background-color: #e65c00;
 }
 
-.hero-slogan {
+.hero-banner__slogan {
   width: 100%;
   background-color: #000;
   color: #FFD700;
@@ -62,7 +60,7 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.hero-slogan::before {
+.hero-banner__slogan::before {
   content: attr(data-text);
   display: inline-block;
   animation: scroll-slogan 15s linear infinite;
@@ -79,22 +77,22 @@
 
 /* 📱 Mobile Styles */
 @media (max-width: 768px) {
-  .hero {
+  .hero-banner {
     height: auto;
     padding: 2rem 1rem;
-    background-attachment: scroll; /* Disable parallax on mobile */
+    background-attachment: scroll;
   }
 
-  .hero-content {
+  .hero-banner__content {
     padding: 1.5rem;
   }
 
-  .hero h1 {
+  .hero-banner__content h1 {
     font-size: 1.8rem;
   }
 
-  .hero p {
+  .hero-banner__content p {
     font-size: 1rem;
   }
-
 }
+
