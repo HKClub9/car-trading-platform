@@ -1,1 +1,3 @@
 https://www.pistonheads.com/buy?utm_medium=paid_search&utm_campaign=MotiveMetrics_PH_Brand_Search&utm_content=&gad_source=1&gad_campaignid=19698602102&gbraid=0AAAAACmjn1zyI1B5HRAcFOBIr6NueLSxn&gclid=EAIaIQobChMIisDXzrP4jgMVscAWBR1sqBUCEAAYAyAAEgI2QfD_BwE
+
+import React, { useEffect, useState } from 'react';  //carCard.js

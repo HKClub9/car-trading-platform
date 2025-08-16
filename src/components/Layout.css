@@ -6,8 +6,12 @@
 
 .layout-content {
   flex: 1;
-  padding: 2rem;
   padding-bottom: 3rem; /* Prevent content from being hidden behind footer */
+}
+
+/* ✅ Added spacing below fixed navbar */
+.page-wrapper {
+  padding-top: 80px; /* navbar height + breathing room */
 }
 
 

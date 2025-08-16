@@ -7,10 +7,17 @@ const Layout = ({ children }) => {
   return (
     <div className="layout-wrapper">
       <Navbar />
-      <main className="layout-content">{children}</main>
+      <main className="layout-content">
+        <div className="page-wrapper">
+          {children}
+        </div>
+      </main>
       <Footer />
     </div>
   );
 };
 
 export default Layout;
+
+
+

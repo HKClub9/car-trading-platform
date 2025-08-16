@@ -1,17 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 // Page components
 import Home from './pages/Home';
 import NewCars from './pages/NewCars';
-import Sedan from './pages/Sedan';
-import SUV from './pages/SUV';
-import EV from './pages/EV';
 import UsedCars from './pages/UsedCars';
 import SellCar from './pages/Sell';
 import Contact from './pages/Contact';
+import Cart from './pages/Cart';
+import { CartProvider } from './context/CartContext';
+
 
 // Scroll-to-top helper
 import { useEffect } from 'react';
@@ -27,22 +26,25 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/new" element={<NewCars />} />
-        <Route path="/new/sedan" element={<Sedan />} />
-        <Route path="/new/suv" element={<SUV />} />
-        <Route path="/new/ev" element={<EV />} />
-        <Route path="/used" element={<UsedCars />} />
-        <Route path="/sell" element={<SellCar />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <CartProvider>
+      <Router>
+        <ScrollToTop />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/new" element={<NewCars />} />
+            <Route path="/used" element={<UsedCars />} />
+            <Route path="/sell" element={<SellCar />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
+        </Layout>
+      </Router>
+    </CartProvider>
   );
 }
 
 export default App;
+
+
+
